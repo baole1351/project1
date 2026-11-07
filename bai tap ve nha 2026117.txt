@@ -1,0 +1,16 @@
+Bài tập về nhà 2: Mật khẩu mở cửa bí mật
+
+Tình huống: 
+Một cánh cửa bí mật yêu cầu nhập mật khẩu là một con số có đúng 2 chữ số (từ 10 đến 99). 
+
+Cánh cửa này chỉ mở nếu thỏa mãn ĐỒNG THỜI CẢ 2 QUY TẮC sau:
+1. Hai chữ số tạo nên mật khẩu phải KHÁC NHAU.
+2. Tổng của hai chữ số đó phải là một SỐ CHẴN.
+ Yêu cầu: Nhập vào mật khẩu n . 
+ Dùng cấu trúc if - else , các phép chia, so sánh khác ( != ) và so sánh bằng ( == ) để kiểm tra xem cửa có mở hay không.
+
+Ví dụ:
+
+ Nhập n = 35 → In ra: Cửa đã mở! (Vì 3 khác 5, và tổng 3 + 5 = 8 là số chẵn).
+ Nhập n = 22 → In ra: Sai mật khẩu! (Dù tổng 2 + 2 = 4 là số chẵn, nhưng hai chữ số lại giống nhau).
+ Nhập n = 43 → In ra: Sai mật khẩu! (Dù 4 khác 3, nhưng tổng 4 + 3 = 7 là số lẻ).
