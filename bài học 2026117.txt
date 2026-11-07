@@ -1,0 +1,86 @@
+Bài 1 :
+Nhập vào 1 năm bất kỳ N : 
+ví dụ : 2012 , hoặc 2017 
+Làm sao biết đây là năm nhuận : 
+yêu cầu kết quả trả rả  
+- Đây là năm nhuận.
+- Đây không phải làm năm nhuận.
+
+  if( N %4 == 0)
+    { năm N là năm nhuận}
+  else
+    { năm N là năm ko nhuận} 
+  
+
+
+
+
+
+
+Bài 2: 
+Cho 1 tự nhiên số N Từ 10 -> 99 
+làm sao biết đây là số kép : 
+số kép là số có 2 số giống nhau 
+ví dụ :
+11 , 22 ,33: 
+
+cách 1 :
+
+  if( N % 11 == 0) 
+    { return thì N là  số kép }
+  else 
+    { return N LÀ KHONG phai la so kep }
+	
+cách 2 :
+   a = N % 10 ; 
+   b = N / 10; 
+	
+  if ( a == b)
+   { return thì N là  số kép }
+  else 
+   return N LÀ KHONG phai la so kep
+   
+
+
+
+ 
+
+
+
+Tình huống: Một con số được gọi là "số gánh" (hay số đối xứng) nếu chữ số đứng đầu và chữ số
+đứng cuối giống y hệt nhau. Chúng ta có một biển số xe gồm đúng 3 chữ số (từ 100 đến 999).
+Yêu cầu: Nhập vào một số nguyên a có 3 chữ số. Chỉ dùng if - else , phép chia lấy phần
+nguyên, chia lấy dư và so sánh bằng ( == ), hãy kiểm tra xem a có phải là số gánh hay không.
+
+ví dụ đây là sô gánh :
+141 , 393 , 101
+đây k phải số gánh :
+345 , 543, 453
+
+tìm số Gánh N :
+  a = N /100 
+  b = N % 10 	 
+  if ( a =b ) 
+    return (N LÀ SỐ gánh)
+  else 
+    return N khong phai la so gánh 
+	
+	
+	
+	
+a=4 b=5
+if(a > B)
+{ // a lớn hơn b 
+  if(a%b==0)
+   {
+      return (đây là 2 số chia hết cho nhau)
+	}else{
+       return (đây không phải 2 số chia hết cho nhau)
+    }
+}else {
+// a bé hơn b ( b lớn hơn)
+    if (a%b==0)
+	   return (đây là 2 số chia hết cho nhau)
+    else
+       return (đây không phải 2 số chia hết cho nhau)
+}
